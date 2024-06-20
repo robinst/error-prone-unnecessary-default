@@ -6,10 +6,7 @@ public class Hello {
     }
 
     public static void main(String[] args) {
-        doSomething(Type.valueOf(args[0]));
-    }
-
-    private static void doSomething(Type type) {
+        var type = Type.valueOf(args[0]);
         switch (type) {
             case FOO -> {
                 System.out.println("Hi foo");
