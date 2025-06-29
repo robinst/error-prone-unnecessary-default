@@ -1,4 +1,7 @@
-# error-prone minimal example for UnnecessaryDefaultInEnumSwitch
+> [!NOTE]
+> Has been reported and fixed here: https://github.com/google/error-prone/issues/4443
+
+### error-prone minimal example for UnnecessaryDefaultInEnumSwitch
 
 Example to reproduce a problem with the
 [UnnecessaryDefaultInEnumSwitch](https://errorprone.info/bugpattern/UnnecessaryDefaultInEnumSwitch)
